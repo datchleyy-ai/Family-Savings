@@ -1,0 +1,205 @@
+﻿{
+    "targets":  {
+                    "you":  1772.16,
+                    "wife":  1168.84
+                },
+    "weeks":  [
+                  {
+                      "id":  1,
+                      "label":  "Week 1",
+                      "youTarget":  443.04,
+                      "wifeTarget":  292.21,
+                      "youSaved":  0,
+                      "wifeSaved":  0,
+                      "youDone":  false,
+                      "wifeDone":  false,
+                      "note":  "",
+                      "youPaycheck":  0,
+                      "youPutBack":  0,
+                      "wifePaycheck":  0,
+                      "wifePutBack":  0
+                  },
+                  {
+                      "id":  2,
+                      "label":  "Week 2",
+                      "youTarget":  443.04,
+                      "wifeTarget":  292.21,
+                      "youSaved":  0,
+                      "wifeSaved":  0,
+                      "youDone":  false,
+                      "wifeDone":  false,
+                      "note":  "",
+                      "youPaycheck":  0,
+                      "youPutBack":  0,
+                      "wifePaycheck":  0,
+                      "wifePutBack":  0
+                  },
+                  {
+                      "id":  3,
+                      "label":  "Week 3",
+                      "youTarget":  443.04,
+                      "wifeTarget":  292.21,
+                      "youSaved":  0,
+                      "wifeSaved":  0,
+                      "youDone":  false,
+                      "wifeDone":  false,
+                      "note":  "",
+                      "youPaycheck":  0,
+                      "youPutBack":  0,
+                      "wifePaycheck":  0,
+                      "wifePutBack":  0
+                  },
+                  {
+                      "id":  4,
+                      "label":  "Week 4",
+                      "youTarget":  443.04,
+                      "wifeTarget":  292.21,
+                      "youSaved":  0,
+                      "wifeSaved":  0,
+                      "youDone":  false,
+                      "wifeDone":  false,
+                      "note":  "",
+                      "youPaycheck":  0,
+                      "youPutBack":  0,
+                      "wifePaycheck":  0,
+                      "wifePutBack":  0
+                  }
+              ],
+    "billCategories":  [
+                           {
+                               "id":  "housing",
+                               "name":  "Housing",
+                               "bills":  [
+                                             {
+                                                 "id":  1,
+                                                 "name":  "Rent (includes Resident Benefits Package)",
+                                                 "dueDate":  "1st",
+                                                 "amount":  1380,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             }
+                                         ]
+                           },
+                           {
+                               "id":  "utilities",
+                               "name":  "Utilities",
+                               "bills":  [
+                                             {
+                                                 "id":  2,
+                                                 "name":  "WiFi",
+                                                 "dueDate":  "3rd",
+                                                 "amount":  46,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             },
+                                             {
+                                                 "id":  3,
+                                                 "name":  "Electricity",
+                                                 "dueDate":  "8th",
+                                                 "amount":  260,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             },
+                                             {
+                                                 "id":  4,
+                                                 "name":  "Water",
+                                                 "dueDate":  "8th",
+                                                 "amount":  100,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             },
+                                             {
+                                                 "id":  5,
+                                                 "name":  "Natural Gas",
+                                                 "dueDate":  "7th",
+                                                 "amount":  140,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             }
+                                         ]
+                           },
+                           {
+                               "id":  "dennis-personal",
+                               "name":  "Dennis Personal Bills",
+                               "bills":  [
+                                             {
+                                                 "id":  6,
+                                                 "name":  "Car Insurance",
+                                                 "dueDate":  "10th",
+                                                 "amount":  380,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             },
+                                             {
+                                                 "id":  7,
+                                                 "name":  "Phone",
+                                                 "dueDate":  "18th",
+                                                 "amount":  46,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             },
+                                             {
+                                                 "id":  8,
+                                                 "name":  "Gas for Car",
+                                                 "dueDate":  "Weekly",
+                                                 "amount":  75,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             }
+                                         ]
+                           },
+                           {
+                               "id":  "havin-personal",
+                               "name":  "Havin Personal Bills",
+                               "bills":  [
+                                             {
+                                                 "id":  9,
+                                                 "name":  "Car Insurance",
+                                                 "dueDate":  "10th",
+                                                 "amount":  400,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             },
+                                             {
+                                                 "id":  10,
+                                                 "name":  "Klarna",
+                                                 "dueDate":  "22nd",
+                                                 "amount":  39,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             },
+                                             {
+                                                 "id":  11,
+                                                 "name":  "Gas for Car",
+                                                 "dueDate":  "Weekly",
+                                                 "amount":  75,
+                                                 "paid":  false,
+                                                 "paidAt":  null
+                                             }
+                                         ]
+                           }
+                       ],
+    "notices":  [
+                    {
+                        "id":  1,
+                        "title":  "Grand total monthly bills",
+                        "body":  "$2,941/month total across housing, utilities, Dennis personal bills, and Havin personal bills."
+                    },
+                    {
+                        "id":  2,
+                        "title":  "Shared bills split",
+                        "body":  "Shared bills total $1,926/month. Dennis covers 66% ($1,271.16) and Havin covers 34% ($654.84)."
+                    },
+                    {
+                        "id":  3,
+                        "title":  "Four-week savings plan",
+                        "body":  "Dennis target is $1,772.16/month, or $443.04 each week. Havin target is $1,168.84/month, or $292.21 each week."
+                    },
+                    {
+                        "id":  4,
+                        "title":  "Backend-only bill amounts",
+                        "body":  "Bill amounts are shown in the app but can only be changed in the backend data file."
+                    }
+                ],
+    "updatedAt":  "2026-06-18T17:43:08.715Z"
+}

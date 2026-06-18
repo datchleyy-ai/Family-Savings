@@ -1,0 +1,16 @@
+﻿services:
+  - type: web
+    name: family-savings-tracker
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: FAMILY_PIN
+        sync: false
+      - key: DATA_DIR
+        value: /var/data
+    disk:
+      name: family-savings-data
+      mountPath: /var/data
+      sizeGB: 1
